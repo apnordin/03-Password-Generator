@@ -1,1 +1,14 @@
-console.log('test')
+function generate(){
+
+    let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
+
+    let password = "";
+
+    for(var i=0; i<=8; i++){
+        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
+    }
+   
+    document.getElementById("display").value = password;
+}
+
+console.log(generate);
