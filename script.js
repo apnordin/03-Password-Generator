@@ -2,12 +2,28 @@ function generate(){
 
     // Prompts for password criteria
     var upperCase = confirm("Do you want your password to contain upper case letters?");
+
+    if (upperCase === true){
+        alert("Your password may contain upper case letters.")
+    } else {alert ("Your password will NOT contain upper case letters.")}
     
     var lowerCase = confirm("Do you want your password to contain lower case letters?");
 
+    if (lowerCase === true){
+        alert("Your password may contain lower case letters.")
+    } else {alert ("Your password will NOT contain lower case letters.")}
+
     var numbers = confirm("Do you want your password to contain numbers?");
 
+    if (numbers === true){
+        alert("Your password may contain numbers.")
+    } else {alert ("Your password will NOT contain numbers.")}
+
     var specialCharacters = confirm("Do you want your password to contain special characters?")
+
+    if (specialCharacters === true){
+        alert("Your password may contain special characters.")
+    } else {alert ("Your password will NOT contain special characters.")}
 
     var passwordLength = prompt("Enter the desired length of your password. Minimum 8, maximum 128.");
 
