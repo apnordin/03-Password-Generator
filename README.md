@@ -15,4 +15,4 @@
     - Only valid password lengths are allowed (8-128)
         - A function return starts the app over if the length selected is lower than 8 or higher than 128
     - The password is generated
-    - The password is displayed int he text box on screen
+    - The password is displayed in the text box on screen
